@@ -1,8 +1,11 @@
 # DBprojects
 A Java application to administer the real-time status of individual tests running in a test suite (comprising 35000) test cases.
+
 **Purpose of the project:** Develop and application for real time analysis of test status, that also enables automatic comparison with the previous run of the test and has a feature to add/update test analysis comments, if any. 
+
 **Test Structure:**
 The tests follow a 4-level structure. The is a test suite (for 32-bit or 64-bit system), consisting of test categories(based on database features), which further consist of test units which are finally made up of inidividual test cases. 
+
 **Functionalities included:**
 1. View real time test status.
 2. Update the backend database with the correct status of each individual test case.
